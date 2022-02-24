@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 서비스 소개
 
-## Getting Started
+자신의 코드에 명확한 확신이 없는 대상인 신입 개발자들을 타겟으로 한, 온라인 코드리뷰 서비스
 
-First, run the development server:
+(아쉽게도 QLICK 프로젝트의 깃허브 저장소가 삭제되었기 때문에, 로컬에 있는 코드를 기반으로 새로 저장소를 만들었다)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 기여
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- toast-ui editor를 도입해 QnA 페이지를 개발.
+- 태그를 검색해, 해당 태그을 클릭하면 태그를 사용한 게시물이 보여지게 하는 태그 페이지를 개발.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 성장
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**TOAST UI EDITOR 사용**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+toast-ui editor를 사용하면서 발생한 에러들을 해결하기 위해 패키지의 코드를 직접 뜯어보고, 어떻게 사용하는것이 효율적인지 고민하는 계기가 되었다. 
 
-## Learn More
+댓글 부분을 에디터로 작성하는 과정에서 뷰어가 정상적으로 업데이트되지 않는 문제를 [해결](https://velog.io/@wkahd01/33)했다.
 
-To learn more about Next.js, take a look at the following resources:
+**백엔드와 협업**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+기존에는 정적 웹 페이지만 개발했다면, QLICK 프로젝트를 통해 백엔드와 협업하며 API, 비동기 통신을 공부하고 이를 프로젝트에 적용시켰다. 또한, 백엔드 팀원과의 지속적인 소통을 통해 성공적으로 동적인 웹을 개발할 수 있었다.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 사이트 화면
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- QnA 작성 페이지
+    ![image](https://user-images.githubusercontent.com/54261116/155503545-89f80519-2085-40c6-b163-283681880613.png)
+    
+- Tag 검색 페이지
+    ![image](https://user-images.githubusercontent.com/54261116/155503580-0349ed1c-074b-4bdb-99d6-94078576e232.png)
+    
+    
+- QnA 리스트 페이지
+    ![image](https://user-images.githubusercontent.com/54261116/155503632-c89e869f-6995-452a-b562-61f65a4a9359.png)
+    
+    
